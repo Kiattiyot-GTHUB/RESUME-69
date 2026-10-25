@@ -1,0 +1,46 @@
+/* ===== CSS ของเรา (เสริมจาก Bootstrap) ===== */
+
+html {
+  scroll-behavior: smooth;          /* เลื่อนไป section แบบนุ่ม ๆ */
+}
+
+body {
+  padding-top: 56px;                /* เว้นที่ให้ navbar แบบ fixed-top */
+  font-family: "Sarabun", "Noto Sans Thai", system-ui, sans-serif;
+}
+
+/* กัน navbar บังหัวข้อเมื่อคลิกลิงก์ anchor */
+section {
+  scroll-margin-top: 70px;
+  padding: 2rem 0;
+}
+
+/* รูปโปรไฟล์วงกลม */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ย่อหน้าแนะนำตัวให้ไม่กว้างเกินไป */
+.intro {
+  max-width: 600px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* รูปแทนเครื่องหมาย @ */
+.at-icon {
+  height: 1em;
+  vertical-align: middle;
+}
